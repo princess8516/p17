@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html,body{
+    height: 100%;
+    width: 100%;
+}.main{
+    height: 100%;
+    width: 100%;
+ } .nav{
+    height: 10%;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    gap: 25%;
+    align-items: center;
+    padding-left: 10%;
+ }ul{
+    list-style: none;
+    display: flex;
+    gap: 20%;
+    font-size: 20px;
+
+ }.nav>button{
+    width: 12%;
+    border-radius: 15px;
+   margin-left: 5%;
+   height: 35%;
+ } .content{
+    height: 90%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1434682881908-b43d0467b798?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdvbWFuJTIwZ3ltfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: start;
+    color: white;
+
+ }.left{
+    width: 70%;
+    padding-left: 10%;
+    padding-top: 10%;
+    letter-spacing: 2px;
+ }.content>.left>h1{
+    font-size: 45px;
+ }
